@@ -1,0 +1,15 @@
+train: ./data/ims_solar/
+val: ./data/ims_solar/  # deberian ser diferentes pero tenemos pocas imagenes
+
+nc: 9
+# Classes
+names:
+  0: "Tipo I - StringDesconectado"
+  1: "Tipo II - StringCortoCircuito"
+  2: "Tipo III - ModuloCircuitoAbierto"
+  3: "Tipo IV - BusBar"
+  4: "Tipo V - ModuloCortoCircuito"
+  5: "Tipo VI - CelulaCaliente"
+  6: "Tipo VII - ByPass"
+  7: "Tipo VIII - PID"
+  8: "Tipo XX - Tracker fuera de posición"
